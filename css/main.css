@@ -25,8 +25,7 @@ html {
 /* ----------- Typography ---------- */
 
 h1 {
-  font-family: 'Assistant', sans-serif;
-  font-size: 28px;
+  font-family: 'Halant', serif;
 }
 
 /* ----------- Links ---------- */
@@ -47,33 +46,60 @@ a {
 
 header {
   padding: 1rem 0 3.5rem 0;
+  margin-left: 4.5rem;
 }
 
 .about-img {
   max-width: 30%;
   padding-bottom: 3rem;
-  margin-left: 15rem;
+  margin: 0 auto;
 }
 
 .h2, .email {
   margin-left: 4.5rem;
 }
 
-h2 {
+.h2 {
+  max-width: 75%;
+}
+
+h2, p {
   font-family: 'Assistant', sans-serif;
  }
 
-.social-media {
+.social-p {
   letter-spacing: .02em;
-  font-family: 'Assistant', sans-serif;
   margin-left: 4.5rem;
 }
 
 footer {
   margin-left: 4.5rem;
 }
-/* ----------- Small Screen ---------- */
+/* ----------- Small Screens ---------- */
 
-/* ----------- Medium Screen ---------- */
+@media (min-width: 320px) {
+  .about-img {
+    max-width: 60%;
+  }
+}
+/* ----------- Medium Screens ---------- */
+
+@media (min-width: 640px) {
+  .about-img {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 860px) {
+  .about-img {
+    max-width: 35%;
+  }
+}
+
+@media (min-width: 960px) {
+  .about-img {
+    max-width: 30%;
+  }
+}
 
 /* ----------- Large Screen ---------- */
