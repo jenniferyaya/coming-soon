@@ -12,9 +12,35 @@ html {
   -text-size-adjust: 100%;
 
   font-size: 100%;
-  font-family: Roboto,sans-serif;
   line-height: 1.3;}
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+
+/* ----------- Typography ---------- */
+
+h1 {
+  font-family: 'Assistant', sans-serif;
+}
+
+/* ----------- Links ---------- */
+
+.email-link, .email-link:visited {
+  color: #0000ff;
+}
+
+a {
+	 text-decoration: none;
+}
+
+.social-media, .social-media:hover, .social-media:visited {
+  color: #000;
+}
+
+/* ----------- Small Screen ---------- */
+
+/* ----------- Medium Screen ---------- */
+
+/* ----------- Large Screen ---------- */
