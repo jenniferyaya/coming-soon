@@ -21,11 +21,10 @@ html {
   box-sizing: inherit;
 }
 
-
 /* ----------- Typography ---------- */
 
 h1 {
-  font-family: 'Halant', serif;
+  font-family: "adobe-caslon-pro", serif;
   color: #3100ff;
 }
 
@@ -36,7 +35,7 @@ h1 {
 }
 
 a {
-	 text-decoration: none;
+  text-decoration: none;
 }
 
 /* ----------- About ---------- */
@@ -64,8 +63,10 @@ header {
 }
 
 h2, p {
-  font-family: 'Assistant', sans-serif;
- }
+  font-family: "Assistant", sans-serif;
+  font-weight: normal;
+  max-width: 90%;
+}
 
 .social-p {
   letter-spacing: .02em;
@@ -77,10 +78,14 @@ footer {
   text-align: left;
 }
 
-
 /* ----------- Small Screens ---------- */
 
-@media (min-width: 220px) {
+@media (min-width: 13em) {
+
+  html {
+    font-size: 80%;
+  }
+
   .about-img {
     max-width: 60%;
   }
@@ -90,10 +95,14 @@ footer {
   }
 }
 
-
 /* ----------- Medium Screens ---------- */
 
-@media (min-width: 640px) {
+@media (min-width: 40em) {
+
+  html {
+    font-size: 100%;
+  }
+
   .about-img {
     max-width: 50%;
   }
@@ -103,26 +112,21 @@ footer {
   }
 }
 
-@media (min-width: 860px) {
+@media (min-width: 53em) {
+
   .about-img {
     max-width: 40%;
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 60em) {
+
   .about-img {
     max-width: 35%;
   }
 
-    .h2, p, .email, .social-p, header {
+  .h2, p, .email, .social-p, header {
     margin-left: 10.5rem;
   }
 }
 
-/* ----------- Large Screen ---------- */
-
-@media (min-width: px) {
-  .h2, .email {
-    margin-left: 10rem;
-  }
-}
