@@ -26,37 +26,37 @@ html {
 
 h1 {
   font-family: 'Halant', serif;
+  color: #3100ff;
 }
 
 /* ----------- Links ---------- */
 
-.email-link, .email-link:visited {
-  color: #0000ff;
+.email-link, .email-link:visited, .social-media {
+  color: #3100ff;
 }
 
 a {
 	 text-decoration: none;
 }
 
-.social-media, .social-media:hover, .social-media:visited {
-  color: #000;
-}
-
 /* ----------- About ---------- */
 
 header {
-  padding: 1rem 0 3.5rem 0;
-  margin-left: 4.5rem;
+  padding: 5rem 0 .5rem 0;
+  margin-left: 15.5rem;
 }
 
 .about-img {
-  max-width: 30%;
   padding-bottom: 3rem;
   margin: 0 auto;
 }
 
 .h2, .email {
-  margin-left: 4.5rem;
+  margin-left: 15.5rem;
+}
+
+.email {
+  margin-bottom: .5rem;
 }
 
 .h2 {
@@ -69,37 +69,60 @@ h2, p {
 
 .social-p {
   letter-spacing: .02em;
-  margin-left: 4.5rem;
+  margin-left: 15.5rem;
 }
 
 footer {
-  margin-left: 4.5rem;
+  margin-top: 3.5rem;
+  text-align: left;
 }
+
+
 /* ----------- Small Screens ---------- */
 
-@media (min-width: 320px) {
+@media (min-width: 220px) {
   .about-img {
     max-width: 60%;
   }
+
+  .h2, p, .email, .social-p, header {
+    margin-left: 1.5rem;
+  }
 }
+
+
 /* ----------- Medium Screens ---------- */
 
 @media (min-width: 640px) {
   .about-img {
-    max-width: 40%;
+    max-width: 50%;
+  }
+
+  .h2, p, .email, .social-p, header {
+    margin-left: 5.5rem;
   }
 }
 
 @media (min-width: 860px) {
   .about-img {
-    max-width: 35%;
+    max-width: 40%;
   }
 }
 
 @media (min-width: 960px) {
   .about-img {
-    max-width: 30%;
+    max-width: 35%;
+  }
+
+    .h2, p, .email, .social-p, header {
+    margin-left: 10.5rem;
   }
 }
 
 /* ----------- Large Screen ---------- */
+
+@media (min-width: px) {
+  .h2, .email {
+    margin-left: 10rem;
+  }
+}
